@@ -294,3 +294,21 @@ width: 100%;
 .mag-text {
     height: 28%;
 }
+
+.small-more .image {
+    width: 50%;
+}
+.small-more {
+    display: flex;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+.small-more-title {
+    font-size: 18px;
+}
+
+.more-text {
+    width: 70%;
+    margin-left: 8px;
+}
