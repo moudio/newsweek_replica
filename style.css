@@ -246,18 +246,18 @@ width: 100%;
 
 /* IN MAGAZINE */
 
-.in-wrapper {
-    width: 98%;
-    margin: 0 auto;
-}
+
 .cover-start .picture {
     position: relative;
 }
 
 
-
 .in-mag img {
     height: 100%;;
+}
+
+.in-mag .picture {
+    height: 60%;
 }
 
 .see-features {
