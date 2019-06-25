@@ -1,0 +1,296 @@
+/* NAVIGATION */
+body {
+    width: 70%;
+    margin: 0 auto;
+    background-color: rgb(244, 245, 246);
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+header {
+    background: #f72210;
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    height: 38px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    width: 90%;
+    margin: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    line-height: 38px;
+    border-left: 1px solid gray;
+
+}
+
+nav ul li a {
+color: black;
+font-size: 20px;
+font-weight: bold;
+display: block;
+}
+
+nav ul li a:hover {
+    color: #f72210;
+    text-decoration: none;
+}
+
+.header-details {
+    text-align: center;
+    color: white;
+
+}
+
+.search {
+    font-size: 18px;
+}
+
+.logo img {
+    width: 75%;
+}
+
+.date {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sign-in {
+    border: none;
+    background-color: #f72210;
+    color: white;
+}
+
+.subscribe {
+    border: none;
+    background-color: white;
+    color: #f72210;
+}
+
+.sign-in,
+.subscribe {
+    font-size: 18px;
+    font-weight: bold;
+}
+.search {
+    text-align: center;
+    width: 10%;
+    line-height: 36px;
+}
+
+
+/* FEATURED STORIES */
+
+main {
+    padding-top: 20px;
+    background-color: white;
+}
+.featured-stories {
+    margin: 0 20px;
+}
+ img {
+    width: 100%;
+}
+.pic {
+    position: relative;
+}
+.type, 
+.sponsored-type {
+    position: absolute;
+    bottom: 0;
+    color: #f72210;
+    background: rgba(226, 226, 226, 0.9);
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 5px 12px;
+}
+
+.sponsored-type {
+    color: #3581f4;;
+}
+
+.title {
+    color: rgba(3,3,3,.4);
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.more-stories h3 {
+font-size: 19px;
+font-weight: bold;
+}
+.small-story {
+    display: flex;
+    border-top: 1px solid rgb(224, 224, 224);
+    padding: 20px 0;
+
+
+}
+
+.small-story .image {
+    width: 25%;
+    margin-right: 5px;
+}
+.small-story .image img {
+width: 100%;
+}
+
+
+.text {
+    width: 75%;
+}
+
+
+
+/* OPINION */
+
+.small-opinion {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid rgb(224, 224, 224);
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+.profile-pic {
+    width: 24%;
+    margin-right: 10px;
+}
+.profile-pic img {
+    width: 100%;
+}
+.opinion-title {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.author {
+    font-size: 14px;
+    line-height: 21px;
+    color: #555;
+    margin-top: 4px;    
+    font-weight: bold;
+}
+
+/* Latest News */
+.small-news {
+    display: flex;
+    padding: 15px 0;
+    border-top: 1px solid rgb(244, 245, 246);
+    border-bottom: 1px solid rgb(244, 245, 246);
+}
+.small-news .image {
+    margin-right: 10px;
+    width: 60%;
+}
+
+.news-title {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.text-logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.newsletter-signup {
+    width: 95%;
+    margin: 20px auto;
+    background-color: #f4f5f6;
+    border: 1px solid #e5e5e5;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.newsletter-signup button {
+    background-color: #555;
+    color: white;
+    display: block;
+    border: none;
+    margin: 10px 0px;
+    padding: 7px 14px;
+}
+.newsletter-logo{
+    margin-right: 7px;
+    width: 10%;
+}
+
+.wrapper {
+    margin-left: 10px;
+  
+
+}
+
+.newsletter-title {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+/* IN MAGAZINE */
+
+.in-wrapper {
+    width: 98%;
+    margin: 0 auto;
+}
+.cover-start .picture {
+    position: relative;
+}
+
+
+
+.in-mag img {
+    height: 100%;;
+}
+
+.see-features {
+    background: rgba(226, 226, 226, 0.9);
+    padding: 15px 0px;
+    font-size: 19px;
+    text-align: center;
+}
+
+.in-mag-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cover {
+    background: #f72210;
+    color: white;
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.in-mag-details {
+    padding-top: 20px;
+}
+
+.in-mag-type {
+    color: #f72210;
+    font-size: 18px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.mag-text {
+    height: 28%;
+}
