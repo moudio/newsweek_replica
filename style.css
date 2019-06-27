@@ -26,7 +26,6 @@ nav button {
     width: 100%;
     margin: 0;
     position: fixed;
-    width: 100%;
     z-index: 999;
     margin: 0;
     top: 0;
@@ -558,6 +557,11 @@ width: 50%;
     font-weight: bold;
 }
 
+
+.preferences a {
+    color: black;
+    text-decoration: none;
+}
 .news-wrapper {
     display: flex;
     height: 100%;
@@ -695,6 +699,9 @@ footer {
         margin: 15px 0;
     }
   
+    .in-magazine .row {
+        margin-bottom: 40px;
+    }
 
 }
 
@@ -717,6 +724,12 @@ footer {
   .editions {
       margin: 10px;
   }
+}
+
+@media only screen and (max-width: 940px) {
+    .in-magazine .row {
+        margin-bottom: 100px;
+    }
 }
 
 @media only screen and (min-width:767px) and (max-width: 980px) {
