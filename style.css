@@ -10,7 +10,7 @@ header {
     background: #f72210;
 }
 
-nav {
+.main-nav {
     background-color: white;
     display: flex;
     height: 46px;
@@ -23,7 +23,7 @@ nav .first-nav .first-li a {
     border: none;
 }
 
-nav button {
+.main-nav button {
     max-height: 30px;
 }
 .second-nav {
@@ -33,7 +33,6 @@ nav button {
     margin: 0;
     position: fixed;
     z-index: 999;
-    margin: 0;
     top: 0;
     left: 0;
     right: 0;
@@ -54,13 +53,12 @@ nav button {
 }
 
 .issue {
-    display: inline;
     font-size: 16px;
     margin-bottom: 0;
 }
 
 
-.second-nav ul {
+.main-nav .second-nav ul {
     margin: 0;
     padding: 1px;
     display: flex;
@@ -106,13 +104,14 @@ nav button {
 nav .second-nav ul li {
     padding: 0;
     line-height: 1.5;
+    margin: 10px;
 }
 
 nav .second-nav ul li a {
     border: none;
 }
 
-nav ul {
+.main-nav ul {
     display: flex;
     justify-content: space-between;
     padding-left: 0;
@@ -120,16 +119,16 @@ nav ul {
     margin: 0;
 }
 
-nav ul li {
+.main-nav ul li {
     list-style-type: none;
-    width: 100%;
+    width: 17%;
     text-align: center;
     line-height: 38px;
     padding: 10px 0;
 
 }
 
-nav ul li a {
+.main-nav ul li a {
 color: black;
 font-size: 18px;
 font-weight: bold;
@@ -144,7 +143,7 @@ line-height: 23px;
 .story .top-story-title a {
     font-size: 1.5rem;
 }
-nav ul li a:hover {
+.main-nav ul li a:hover {
     color: #f72210;
     text-decoration: none;
 }
@@ -365,7 +364,7 @@ color: #f72210;
     color: white;
     display: block;
     border: none;
-    margin: 10px 0px;
+    margin: 10px 0;
     padding: 7px 14px;
 }
 .newsletter-logo{
@@ -423,7 +422,7 @@ color: #f72210;
 
 .see-features {
     background: rgba(226, 226, 226, 0.9);
-    padding: 15px 0px;
+    padding: 15px 0;
     font-size: 19px;
     text-align: center;
 }
@@ -717,10 +716,21 @@ footer {
 
 }
 
+@media only screen and (max-width: 1024px) {
+    .main-nav ul li {
+        width: 100%;
+    }
+    nav .second-nav ul li {
+        margin: 0;
+    
+}
+}
+
 @media only screen and (max-width: 990px) {
     .news-image {
         width: 30%;
     }
+
 
    .news-wrapper .news-text {
         text-align: left;
