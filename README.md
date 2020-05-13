@@ -30,7 +30,7 @@ Additional description about the project and its features.
 
 Contributions, issues and feature requests are welcome!
 
-1. Fork it (https://github.com/MouhaDiouf/battleship)
+1. Fork it (https://github.com/MouhaDiouf/newsweek_replica)
 2. Create your feature branch (git checkout -b feature/[choose-a-name])
 3. Commit your changes (git commit -am 'What this commit will fix/add')
 4. Push to the branch (git push origin feature/[chosen name])
