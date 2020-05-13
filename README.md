@@ -2,7 +2,7 @@
 
 >This is a replica of the website newsweek.com built with bootstrap
 
-![screenshot](./app_screenshot.png)
+![screenshot](./images/screenshot.png)
 
 Additional description about the project and its features.
 
