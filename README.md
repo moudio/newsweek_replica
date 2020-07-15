@@ -4,8 +4,6 @@
 
 ![screenshot](./images/screenshot.png)
 
-Additional description about the project and its features.
-
 ## Built With
 
 - HTML,CSS,
@@ -28,7 +26,7 @@ Additional description about the project and its features.
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!
+Contributions, issues, and feature requests are welcome!
 
 1. Fork it (https://github.com/MouhaDiouf/newsweek_replica)
 2. Create your feature branch (git checkout -b feature/[choose-a-name])
