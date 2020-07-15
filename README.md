@@ -23,6 +23,11 @@
 - Twitter: [@mouhamadiouf](https://twitter.com/mouhamadiouf)
 - Linkedin: [Mouhadiouf](https://linkedin.com/mouhadiouf)
 
+## Usage 
+### Clone it 
+> Clone the project with the command: git clone https://github.com/MouhaDiouf/newsweek_replica/
+### Launch it 
+> Launch it with a live server from your terminal.
 
 ## 🤝 Contributing
 
